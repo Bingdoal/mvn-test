@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>TestMvn</artifactId>
-
+    <packaging>pom</packaging>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
@@ -18,9 +18,9 @@
 
     <distributionManagement>
         <repository>
-            <id>maven-package-test</id>
+            <id>github</id>
             <name>GitHub OWNER Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/Bingdoal/maven-package-test.git</url>
+            <url>https://maven.pkg.github.com/Bingdoal/maven-package-test</url>
         </repository>
     </distributionManagement>
 </project>
